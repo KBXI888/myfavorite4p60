@@ -1,0 +1,72 @@
+body {
+  text-align:center;
+  background:linear-gradient(#00eeff 0%,#00ff37 100%);
+  background-repeat:no-repeat;
+}
+h1{
+  font-size:30px;
+  text-shadow:2px 2px #f54293;
+  font-family: 'Hachi Maru Pop', cursive;  
+}
+.line {
+   height: 6px;              background-color: #000000;
+    width: 70px;
+    margin: 8px auto;
+}
+p {
+  padding:20px;
+  font-size:18px;
+}
+#batball {
+  border-radius:50%;
+  width:150px;
+  height:100px;
+}
+.menu {
+    list-style: none;
+    font-family: cursive;
+    float: left;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+        color: black;
+    position: fixed;
+}
+.link:hover {
+    background-color: darkcyan;
+}
+.link {
+    float: left;
+    color: #FFF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: fantasy;
+    font-size: 20px;
+    list-style: none;
+}
+#about {
+    background-color:mediumvioletred;
+}
+h2 {
+    color: springgreen;
+}
+html {
+    scroll-behavior: smooth
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: mediumvioletred;
+}
+#rs {
+  width:450px;
+  height:300px;
+    transition: transform 0.2s;
+    border: 10px solid #AAAAAA;
+}
+#rs:hover {
+    transform: scale(0.85);
+}
